@@ -33,8 +33,20 @@
       within textStr
 
 */
+window.onload = init
 
+function init(){
+   var stars = document.querySelectorAll("span#stars img");
 
+   for(var i = 0; i < stars.length; i++){
+      stars[i].style.backgroundColor;
+      stars[i].addEventListener("mouseenter","pointer");
+   }
+   stars[i].addEventListener("count");
+}
+function lightStars(){
+   
+}
 
   
 
